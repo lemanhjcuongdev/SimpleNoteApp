@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp">
+
+    <TextView
+        android:id="@+id/subject_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note 0"
+        android:textSize="26dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/date_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wed Feb 09:15:20 GMT+07:00 2022"
+        android:textSize="10dp"/>
+
+    <TextView
+        android:id="@+id/content_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ví dụ như sách văn học nước ngoài , sách chuyên ngành bằng tiếng ngoài , khi các đọc giả cần đọc những thể loại sách đó thì rất khó khăn để có thể tiếp cận và vì thế các app , web đọc truyện đã giải quyết bài toán từ mô hình truyền thống sang hình thức trực tuyến giúp các đọc giả dễ tiếp cận khi đã có internet ở bên
+"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="?android:attr/listDivider" />
+
+</LinearLayout>
